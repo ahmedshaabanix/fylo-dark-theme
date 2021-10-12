@@ -1,0 +1,19 @@
+.boxes {
+  background-color: $DarkBlueMain;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-template-rows: repeat(2, 300px);
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  @include breakpoint-down(small) {
+    grid-template-columns: repeat(1, 400px);
+
+    gap: 50px;
+  }
+  .box {
+    h2 {
+      font-size: 18px;
+    }
+  }
+}

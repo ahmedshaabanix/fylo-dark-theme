@@ -1,0 +1,11 @@
+.btn {
+  display: inline-block;
+  padding: 15px 70px;
+  border-radius: 35px;
+  color: $White;
+  background: linear-gradient(to right, $Cyan, $Blue);
+  // transition: background 0.2s linear;
+  &:hover {
+    background: linear-gradient(to right, $Cyan);
+  }
+}
